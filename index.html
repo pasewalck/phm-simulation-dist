@@ -2,54 +2,39 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Veranschaulichung der Fourierreihe</title>
-  <style>
-    canvas {
-      display: block;
-    }
-  </style>
-  <script type="module" crossorigin src="./assets/main-CGmpcq7A.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/latex-C-g7WWz2.js">
-  <link rel="modulepreload" crossorigin href="./assets/slider-C3CHFzxY.js">
-  <link rel="stylesheet" crossorigin href="./assets/latex-BZ96LCAJ.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Veranschaulichungen</title>
+  <script type="module" crossorigin src="./assets/style-CVefmo2o.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/style-BDMWakAt.css">
 </head>
 
 <body class="m-0 min-h-screen bg-slate-100 flex justify-center items-center">
 
-  <div class="flex flex-col max-w-2xl justify-center items-start sm:p-6 sm:pb-0">
+    <div class="flex flex-col max-w-3xl justify-center items-start sm:p-6 sm:pb-0">
 
-    <div id="graph2" class="bg-white backdrop-blur-md p-4 pb-0 border-white/[0.06] sm:rounded-lg w-[100%]">
-      <h1 class="text-black text-[25px] mb-2 select-none text-center">
-        Veranschaulichung der Fourierreihe
-      </h1>
-      <div id="g2-inputs" class="flex flex-col gap-4"></div>
-      <div id="g2-visuals" class="flex flex-col">
-        <div class="text-black text-[16px] mt-4 select-none text-center">
-          Darstellung eines Folgenglieds (in der komplexen Ebene)
+        <div id="graph2" class="bg-white backdrop-blur-md p-6 border-white/[0.06] sm:rounded-lg w-[100%]">
+            <h1 class="text-black text-[25px] mb-2 select-none text-center">
+                Veranschaulichungen
+            </h1>
+            <div class="flex flex-col gap-2 mt-4 mb-4">
+                <a href="fourier.html"
+                    class="block bg-slate-50 border border-slate-200 rounded-lg p-4 text-center text-black text-[16px] hover:bg-blue-50 hover:border-blue-300 transition-colors">Fourier-Reihe</a>
+                <a href="laplace.html"
+                    class="block bg-slate-50 border border-slate-200 rounded-lg p-4 text-center text-black text-[16px] hover:bg-blue-50 hover:border-blue-300 transition-colors">Laplace
+                    Operator</a>
+                <a href="taylor.html"
+                    class="block bg-slate-50 border border-slate-200 rounded-lg p-4 text-center text-black text-[16px] hover:bg-blue-50 hover:border-blue-300 transition-colors">Taylor-Reihe</a>
+            </div>
         </div>
-        <div id="g2-visuals-1"></div>
-        <div class="text-black text-[16px] mt-4 select-none text-center">
-          Beträge der Folgendglieder 0 bis 10
-        </div>
-        <div id="g2-visuals-2"></div>
-        <div class="text-black text-[16px] mt-4 select-none text-center">
-          Volle Fourierreihe (zur ausgewählten Tiefe)
-        </div>
-        <div id="g2-visuals-3"></div>
-      </div>
 
-
-
+        <footer class="flex items-center justify-center w-full p-5">
+            <div class="text-slate-800 text-[14px] select-none text-center"><a
+                    href="https://github.com/pasewalck/phm-simulation" class="hover:text-slate-900">Source Code</a> |
+                ©Pasewalck</div>
+        </footer>
     </div>
-
-    <footer class="flex items-center justify-center w-full p-5">
-      <div class="text-slate-800 text-[14px] select-none text-center"><a
-          href="https://github.com/pasewalck/phm-simulation" class="hover:text-slate-900">Source Code</a> |
-        ©Pasewalck</div>
-    </footer>
-  </div>
 
 </body>
 
