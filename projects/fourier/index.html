@@ -4,16 +4,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Veranschaulichung des Laplace Operators</title>
+  <title>Veranschaulichung der Fourier-Reihe</title>
   <style>
     canvas {
       display: block;
     }
   </style>
-  <script type="module" crossorigin src="./assets/laplace-CmQntK7t.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/latex-BYORuaJW.js">
-  <link rel="modulepreload" crossorigin href="./assets/style-CVefmo2o.js">
-  <link rel="stylesheet" crossorigin href="./assets/style-BDMWakAt.css">
+  <script type="module" crossorigin src="../../assets/fourier-BROgUJT5.js"></script>
+  <link rel="modulepreload" crossorigin href="../../assets/latex-BYORuaJW.js">
+  <link rel="modulepreload" crossorigin href="../../assets/style-CVefmo2o.js">
+  <link rel="modulepreload" crossorigin href="../../assets/slider-DLjT8-w8.js">
+  <link rel="stylesheet" crossorigin href="../../assets/style-BDMWakAt.css">
 </head>
 
 <body class="m-0 min-h-screen bg-slate-100 flex justify-center items-center">
@@ -22,20 +23,20 @@
 
     <div id="graph2" class="bg-white backdrop-blur-md p-4 pb-0 border-white/[0.06] sm:rounded-lg w-[100%]">
       <h1 class="text-black text-[25px] mb-2 select-none text-center">
-        Veranschaulichung des Laplace Operators
+        Veranschaulichung der Fourier-Reihe
       </h1>
       <div id="g2-inputs" class="flex flex-col gap-4"></div>
       <div id="g2-visuals" class="flex flex-col">
         <div class="text-black text-[16px] mt-4 select-none text-center">
-          Uhrspüngliches Skalarfeld
+          Darstellung eines Folgenglieds (in der komplexen Ebene)
         </div>
         <div id="g2-visuals-1"></div>
         <div class="text-black text-[16px] mt-4 select-none text-center">
-          Gradienten-Feld
+          Beträge der Folgendglieder 0 bis 10
         </div>
         <div id="g2-visuals-2"></div>
         <div class="text-black text-[16px] mt-4 select-none text-center">
-          Laplace-Feld
+          Volle Fourierreihe (zur ausgewählten Tiefe)
         </div>
         <div id="g2-visuals-3"></div>
       </div>
